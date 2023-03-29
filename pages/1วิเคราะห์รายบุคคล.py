@@ -139,7 +139,7 @@ if options1 !=[] or options2!=[] or options3 !=[] or options4 !=[] or options5 !
         ai1='ดีมาก'
     
     #------- Ai ด้านที่ 2
-    loaded_model = pickle.load(open('./data/model/trained_model.sav', 'rb'))
+    loaded_model = pickle.load(open('./data/trained_model.sav', 'rb'))
     input_data =  (7,	1,	2,	1,	2,	2,	3,	1	)
     # changing the input_data to numpy array
     input_data_as_numpy_array = np.asarray(input_data)
